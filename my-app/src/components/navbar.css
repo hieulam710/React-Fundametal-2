@@ -1,0 +1,67 @@
+.total {
+    background: linear-gradient( 0deg, rgba(104, 113, 120, 1) 0%, rgba(83, 90, 95, 1) 100% );
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem;
+    position: sticky;
+    top: 0;
+    box-shadow: rgb(0 0 0 / 12%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    margin-bottom: 4rem;
+    gap: 30px;
+    font-size: x-large; 
+    font-weight: 600;
+}
+
+.element {
+    max-width: 300px;
+    margin: 2rem 3rem;
+    /* object-fit: cover; */
+    text-align: center;
+    background: linear-gradient( 0deg, rgba(104, 113, 120, 1) 0%, rgba(83, 90, 95, 1) 100% );
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+.element img {
+    width: 280px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+button {
+    cursor: pointer;
+    padding: 1.5rem 2rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin: 1.5rem;
+    background-color: white;
+}
+.btn-buy {
+    background-color: rgb(158, 221, 153);
+}
+.element p {
+    font-size: 1.4rem;
+    padding: 0.3rem;
+}
+.element span {
+    font-size: 1.8rem;
+}
+.buyAndSellContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-sell {
+    background-color: rgb(221, 153, 153);
+}
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
